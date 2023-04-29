@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+    }
+    li {
+        @apply cursor-pointer;
+    }
+
+    body {
+        @apply bg-secondaryColor font-Poppins w-full min-w-full;
+    }
+
+    .tableRow:nth-child(even) {
+        @apply bg-secondaryColor;
+    }
+}
