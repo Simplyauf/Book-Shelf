@@ -19,7 +19,7 @@ export const BookDetails = () => {
                 back
             </button>
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8">
-                <div className="flex flex-col md:flex-row -mx-4">
+                <div className="flex flex-col md:flex-row -mx-4 gap-4">
                     <div className="md:w-1/3 mx-auto md:mx-0 md:pr-4 md:pb-8">
                         <img
                             src={bookImg}
